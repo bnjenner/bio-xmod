@@ -1,0 +1,17 @@
+name: bio-xmod
+channels:
+  - bioconda
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.5
+  - pip
+  - scipy
+  - matplotlib
+  - biopython
+  - scikit-learn
+  - seaborn
+  - pandas
+  - numpy
+  - pip:
+    - boltznet
